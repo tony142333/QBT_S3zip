@@ -1,0 +1,5 @@
+TF/terraform.tfstate.backup
+TF/terraform.tfstate
+TF/.terraform
+TF/.terraform.lock.hcl
+TF/tejav.pem
