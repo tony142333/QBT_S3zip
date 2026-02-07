@@ -1,6 +1,6 @@
 #!/bin/bash
 # Detected bucket name automatically via CLI
-BUCKET=$(aws s3 ls | awk '{print $3}' | grep "mybuckets123tarun" | head -n 1)
+BUCKET=$(aws s3 ls | awk '{print $3}' | grep "mybuckets123tarunv2" | head -n 1)
 SOURCE="/home/ubuntu/Downloads"
 
 # Colors for terminal
